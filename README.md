@@ -5,6 +5,11 @@ Sistema web para organização de pequenas assistências técnicas, centralizand
 **Aplicação publicada:** https://consertaflow-mvp.lovable.app  
 **Repositório:** https://github.com/Yagami-Murakami/consertaflow-mvp
 
+
+## Prévia do projeto
+
+![ConsertaFlow - prévia da aplicação](https://screenshot2.lovable.dev/lovp_08kb9x65re9r4ab41vzrhneyfq/89ca6c3294d493cab4162b097ab5ceab_1791288770887.png)
+
 ## Problema
 
 Pequenas assistências técnicas frequentemente recebem solicitações por WhatsApp, telefone e balcão. Quando essas informações ficam espalhadas em conversas, cadernos e anotações, surgem problemas como perda de pedidos, retrabalho ao cadastrar clientes, dificuldade para acompanhar o status dos reparos e esquecimentos de aprovações ou retiradas.
