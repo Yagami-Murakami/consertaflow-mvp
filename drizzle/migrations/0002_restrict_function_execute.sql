@@ -1,0 +1,10 @@
+revoke execute on function public.handle_new_user() from public, anon, authenticated;
+revoke execute on function public.log_status_change() from public, anon, authenticated;
+revoke execute on function public.leads_sanitize_public_insert() from public, anon, authenticated;
+revoke execute on function public.has_role(uuid, public.app_role) from public, anon;
+revoke execute on function public.is_admin() from public, anon;
+revoke execute on function public.claim_first_admin() from public, anon;
+grant execute on function public.has_role(uuid, public.app_role) to authenticated;
+grant execute on function public.is_admin() to authenticated;
+grant execute on function public.claim_first_admin() to authenticated;
+grant execute on function public.admin_exists() to anon, authenticated;
